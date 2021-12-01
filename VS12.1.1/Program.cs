@@ -26,8 +26,7 @@ namespace VS12._1._1
             //метод, определяющий площадь круга по заданному радиусу;
             public static double Squar(double radius)
             {
-                double square = Math.PI * Math.Pow(radius, 2);
-                //Console.WriteLine("Площадь круга = {0:0.f2}", square);
+                double square = Math.PI * Math.Pow(radius, 2);               
                 return square;
 
             }
